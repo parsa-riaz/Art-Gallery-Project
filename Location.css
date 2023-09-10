@@ -1,0 +1,142 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.map > img {
+  width: 1440px;
+  height: 100%;
+}
+.button {
+  display: flex;
+  width: 264px;
+  height: 72px;
+  background-color: black;
+
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+.arrow {
+  width: 56px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d5966c;
+}
+.action {
+  color: white;
+  display: flex;
+  width: 100%;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+}
+.action > p {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 3.63636px;
+}
+.location-info {
+  height: 548px;
+  background-color: #151515;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.locdata {
+  display: grid;
+  width: 1110px;
+  height: 316px;
+  grid-template-columns: repeat(2, 50%);
+}
+.location {
+  width: 340px;
+}
+.location > h1 {
+  margin-top: 0;
+  padding-top: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+
+.info > h3 {
+  padding-top: 0;
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #d5966c;
+}
+.info > address {
+  font-family: Outfit, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+}
+.info > p {
+  font-family: Outfit, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+}
+footer {
+  border: solid #d5966c;
+  height: 244px;
+  background-color: #d5966c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-sec {
+  height: 84px;
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-sec > h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  width: 159px;
+}
+.footer-sec > p {
+  font-family: Outfit, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+
+  width: 430px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100%;
+  margin-right: 5%;
+
+  justify-content: space-between;
+  align-items: flex-start;
+}
